@@ -1,7 +1,7 @@
 {
-  "name": "htm",
-  "version": "2.1.1",
-  "description": "The Tagged Template syntax for Virtual DOM. Only browser-compatible syntax.",
+  "name": "@shferreira/htm",
+  "version": "2.1.2",
+  "description": "The Tagged Template syntax for Virtual DOM. Only browser-compatible syntax. - Including Preact X!",
   "main": "dist/htm.js",
   "umd:main": "dist/htm.umd.js",
   "module": "dist/htm.mjs",
@@ -64,9 +64,9 @@
     "virtual dom",
     "hyperscript"
   ],
-  "author": "Jason Miller <jason@developit.ca>",
+  "author": "Silvio Henrique Ferreira <shferreira@me.com>",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/developit/htm",
+  "homepage": "https://github.com/shff/htmx",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.1.6",
@@ -76,7 +76,7 @@
     "eslint-config-developit": "^1.1.1",
     "jest": "^24.1.0",
     "microbundle": "^0.10.1",
-    "preact": "^8.4.2",
+    "preact": "^10.0.0-alpha.2",
     "react": "^16.8.3"
   },
   "dependencies": {},
